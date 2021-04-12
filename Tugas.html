@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .dropbtn {
+            background-color: rgb(153, 60, 60);
+            color: rgb(231, 179, 8);
+            padding: 5px 15px;
+            font-size: 100px;
+            border: none;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: rgb(88, 235, 112);
+            min-width: 250px;
+            z-index: 1;
+        }
+        .dropdown-content a {
+        color: black;
+        padding: 5px 5px;
+        text-decoration: none;
+        display: block;
+        }
+        .dropdown-content a:hover {background-color: white;}
+        .dropdown:hover .dropdown-content {display: block;}
+        .dropdown:hover .dropbtn {background-color: grey;}
+    </style>
+</head>
+<div class="dropdown">
+    <button class="dropbtn">Menu</button>
+    <div class="dropdown-content">
+        <a href="https://www.google.com">Google</a>
+        <a href="https://www.instagram.com">Instagram</a>
+        <a href="https://www.facebook.com">Facebook</a>
+    </div>
+</div>
+</html>
