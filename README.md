@@ -71,4 +71,5 @@ Tampilan pada browser
 
 # **JAWABAN TUGAS**
 
-1. https://github.com/rangs24/Lab3Web/blob/master/Tugas.html
+1. [JawabanTUGAS](https://github.com/rangs24/Lab3Web/blob/master/Tugas.html)
+![SSTugas](https://github.com/rangs24/Lab3Web/blob/master/ss16.png)
